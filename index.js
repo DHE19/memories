@@ -18,7 +18,7 @@ app.use('/posts',postRoutes);
 app.use('/user',userRoutes)
 
 app.get('/',(req,res) =>{
-    res.send('APP IS RUNRING'):
+    res.send('APP IS RUNRING')
 })
 //our connection to mongodb
 const CONNECTION_URL = process.env.MONGO_URI;
